@@ -2,6 +2,7 @@ package actors
 {
 	import utils.Controller;	
 	import flash.events.Event;
+	import flash.ui.Keyboard;
 	/**
 	 * ...
 	 * @author erwin henraat
@@ -23,7 +24,7 @@ package actors
 		}
 		private function loop(e:Event):void 
 		{
-			if (controller.up)
+			  if (controller.up)
 			{
 				speed = -15;
 			}

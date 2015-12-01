@@ -34,7 +34,7 @@ package screens
 						
 			title = new TextField();
 			title.embedFonts = true;
-			title.text = "Pong";
+			title.text = "Bitchin'";
 			title.autoSize = TextFieldAutoSize.CENTER;			
 			title.setTextFormat(textFormat);		
 			
