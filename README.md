@@ -1,23 +1,2 @@
-# pong
-The base code structure for a pong game.
-
-Create your own github account and "fork" this project.
-
-then clone the fork of this project to your computer:
- - use "gitshell" to navigate to your destination folder example d:ma/periode2/dip/github
- - type git clone https://github.com/erwinhenraat/pong.git
- - then enter the project folder by typing "cd pong"
- - you should see the blue master indicator
-
-try changing some code and then make a snapshot
-
-first add up all the changes on the stage 
-type: git add -A
-
-Then make a "commit" (a snapshot of your code)
-type: git commit -m "comment on your change to the code"
-
-Then push your changed version of the code back to your github account
-type:git push
-
-
+# Sam's Notes
+Due to my lack of knowledge of ActionScript 3, I was not able to add much to my game. I was aiming to create a perfectly fair competitive version of Pong, so that people could see who truly was better at Pong. I was able to add local multiplayer and remove the extra ball. I had planned for the ball to change colour every time it hit a paddle, but I did not know how to implement it. I had also planned to add peer-to-peer multiplayer, but I had no clue how to get that working. The last feature that I wanted to add was 2 separate winning screens for each player, however, ActionScript wasn't working with me, so that feature was cut at the last moment. I am quite disappointed that this is all I have to show for the whole project, but handing in something while it is incomplete is better than not handing it in until past the deadline.
