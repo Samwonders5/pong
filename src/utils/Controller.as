@@ -1,4 +1,4 @@
-package utils 
+﻿package utils 
 {
 	import flash.display.Stage;
 	import flash.events.EventDispatcher;
@@ -30,7 +30,6 @@ package utils
 			_fireKeyCode = fire;
 			stage.addEventListener(KeyboardEvent.KEY_DOWN, onDown);
 			stage.addEventListener(KeyboardEvent.KEY_UP, onUp);
-			
 		}
 		public function get up():Boolean
 		{

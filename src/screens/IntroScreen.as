@@ -1,4 +1,4 @@
-package screens 
+﻿package screens 
 {
 	import flash.events.Event;
 	import flash.text.TextField;
@@ -34,7 +34,7 @@ package screens
 						
 			title = new TextField();
 			title.embedFonts = true;
-			title.text = "Bitchin'";
+			title.text = "Sam's Pong";
 			title.autoSize = TextFieldAutoSize.CENTER;			
 			title.setTextFormat(textFormat);		
 			
@@ -83,7 +83,7 @@ package screens
 				
 			}else
 			{
-				start.alpha += .1;	
+				start.alpha += .2;	
 				if (start.alpha >= 1) dir = true;
 			}
 			

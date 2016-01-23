@@ -1,7 +1,10 @@
-package screens 
+﻿package screens 
 {
 	import flash.display.MovieClip;
 	import flash.text.TextFormat;
+	import flash.ui.Multitouch;
+	import flash.ui.MultitouchInputMode;
+	import flash.events.TouchEvent;
 	/**
 	 * ...
 	 * @author erwin henraat

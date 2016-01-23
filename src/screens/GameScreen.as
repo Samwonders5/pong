@@ -1,4 +1,4 @@
-package screens 
+﻿package screens 
 {
 	import actors.Player2;
 	import actors.Ball;
@@ -15,6 +15,7 @@ package screens
 	/**
 	 * ...
 	 * @author erwin henraat
+	 * @edited by sam whitfield
 	 */
 	public class GameScreen extends Screen
 	{
